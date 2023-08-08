@@ -1,0 +1,7 @@
+## Pagina Web Homenaje a personajes guatemaltecos
+1. Se procede a crear el index.html, style.css y carpeta src para almacenar los recursos fotograficos de los personajes
+2. Se procede a crear los encabezados y el cuerpo de la pagina con los titulos etc.
+3. Se crea un carousel para poder mostrar a los 3 personajes que se estaran mostrando en la pagina web
+4. Se crean todas las configuraciones de css para que se puedan mostrar en index.html
+5. Se finalizan todas las configuraciones y se procede a crear un repositorio en github
+6. Se sube todo lo desarrollado a una carpeta compartida en google drive.

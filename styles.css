@@ -1,0 +1,69 @@
+/* Estilos personalizados aquí */
+
+/* Cambiar color de fondo del encabezado */
+.bg-dark-custom {
+    background-color: #ffffff;
+  }
+  
+  /* Centrar verticalmente el contenido del encabezado */
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Espacio alrededor del carrusel */
+  .carousel-section {
+    margin: 40px auto;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Animación de fondo */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Aplicar animación de fondo */
+  body {
+    animation: gradientAnimation 10s ease infinite;
+    background: linear-gradient(-45deg, #5552ee, #1bc9e7, #f4f0ff, #23d5ab);
+    background-size: 400% 400%;
+  }
+  
+  /* Fondo gris para h5 en el carrusel */
+  .carousel-item h5 {
+    background-color:  #d3d3d33f;
+    padding: 10px;
+    border-radius: 5px;
+  }  
+  .carousel-item h5 {
+    background-color:  #d3d3d33f;
+    padding: 10px;
+    border-radius: 5px;
+  } 
+  .carousel-item h6 {
+    background-color:  #d3d3d33f;
+    padding: 10px;
+    border-radius: 5px;
+  }  
+/* Efecto de difuminado en las imágenes del carrusel */
+.carousel-item img {
+  filter: blur(2px); /* Puedes ajustar el valor de "blur" según tu preferencia */
+}

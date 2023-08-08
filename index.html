@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homenaje a Personajes Destacados de Guatemala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="text-white text-center py-4">
+        <h1 class="display-2 fw-bold">Historia de Personajes del deporte en Guatemala</h1>
+    </header>
+    <br>
+    <section class="container my-5">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item  active">
+                    <img src="src/bio2.jpg" class="d-block w-100" alt="Erick Bernabé Barrondo García">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Personaje #1</h2>
+                        <h4>Erick Bernabé Barrondo García"</h4>
+                        <h4>Especialidad: Marcha.</h4>
+                        <h4>Nacimiento: 14 de junio de 1991, San Cristóbal, Alta Verapaz.</h4>
+                        <h6>El 4 de agosto de 2012 Erick ganó la medalla de plata en los Juegos Olímpicos de Londres,
+                            dándole a Guatemala la primera medalla olímpica de toda su historia.</h6>
+                        <h6>Primer lugar en el campeonato Nacional de Marcha de Pontevedra, España 2011.</h6>
+                        <h6>Tercer lugar de la Copa Lugano, en Suiza 2012.</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/bio1.png" class="d-block w-100"
+                        alt="Carlos Humberto Ruiz Gutiérrez El Pescadito Ruiz">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Personaje #2</h2>
+                        <h3>Carlos Humberto Ruiz Gutiérrez "El Pescadito Ruiz"</h3>
+                        <h4>Especialidad: Futbol.</h4>
+                        <h4>Nacimiento: 15 de septiembre de 1979, Ciudad de Guatemala.</h4>
+                        <h5>Ruiz fue partes de las filas de Club Social y Deportivo CSD Municipal en 1995 y donde
+                            permaneció hasta el 2002. Durante esa época anotó al menos 25 goles, posteriormente, su
+                            carrera despegó hacia dos clubes deportivos internacionales.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/bio3.jpg" class="d-block w-100" alt="Ana Gabriela Martínez">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Personaje #3</h2>
+                        <h3>Ana Gabriela Martínez</h3>
+                        <h4>2 de agosto de 1999.</h4>
+                        <h4>Especialidad: Ráquetbol.</h4>
+                        <h5>Martínez demostró su hegemonía en el evento juvenil, ganando 8 títulos consecutivos entre 2009 y 2016. Desde el 2011 también compite en eventos del ciclo olímpico representando a Guatemala, donde ha ganado múltiples medallas.</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </section>
+    <br><br><br>
+    <section class="container my-5">
+        <h2>Deja tu mensaje</h2>
+        <form>
+            <div class="form-group">
+                <label for="personaje">Selecciona un personaje:</label>
+                <select class="form-control" id="personaje" name="personaje">
+                    <option value="personaje1">Erick Bernabé Barrondo García</option>
+                    <option value="personaje2">Carlos Humberto Ruiz Gutiérrez</option>
+                    <option value="personaje3">Ana Gabriela Martínez</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+    </section>
+    <footer class="bg-dark-custom text-black text-center py-3">
+        <p class="text-black text-center py-4">Derechos Reservados &copy; 2023 | Universidad Mariano Galvez</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
